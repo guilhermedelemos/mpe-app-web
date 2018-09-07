@@ -10,7 +10,7 @@ buildscript {
     }
 }
 
-version "0.1"
+version "0.0.1"
 group "mpe.app.web"
 
 apply plugin:"eclipse"
