@@ -9,4 +9,5 @@ out/
 *.iws
 .project
 .settings
-.classpath
+.classpathi
+*.db
