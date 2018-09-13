@@ -2,7 +2,7 @@
 grails:
     profile: web
     codegen:
-        defaultPackage: mpe.app.web
+        defaultPackage: io.github.mpeapp
     gorm:
         reactor:
             # Whether to translate GORM events into Reactor events

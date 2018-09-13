@@ -1,4 +1,4 @@
-package mpe.app.web
+package io.github.mpeapp
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration

@@ -11,7 +11,7 @@ buildscript {
 }
 
 version "0.1"
-group "mpe.app.web"
+group "io.github.mpeapp"
 
 apply plugin:"eclipse"
 apply plugin:"idea"

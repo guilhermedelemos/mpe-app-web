@@ -1,4 +1,4 @@
-package mpe.app.web
+package io.github.mpeapp
 
 class UrlMappings {
 
