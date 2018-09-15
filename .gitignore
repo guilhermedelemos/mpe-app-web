@@ -11,3 +11,8 @@ out/
 .settings
 .classpathi
 *.db
+*.log
+# Sonar
+.scannerwork/
+# Outros
+*.pdf
