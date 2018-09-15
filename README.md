@@ -4,5 +4,7 @@
 ## Development
 
 ### Run
+
 `$ grails`
+
 `run-app`
