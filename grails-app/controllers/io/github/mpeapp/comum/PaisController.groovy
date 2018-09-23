@@ -1,4 +1,4 @@
-package io.github.mpeapp
+package io.github.mpeapp.comum
 
 class PaisController {
 
