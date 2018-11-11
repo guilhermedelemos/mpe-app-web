@@ -1,5 +1,4 @@
-# MPE App
-[![Build Status](https://travis-ci.org/guilhermedelemos/mpe-app-web.svg?branch=master)](https://travis-ci.org/guilhermedelemos/mpe-app-web)
+# MPE App [![Build Status](https://travis-ci.org/guilhermedelemos/mpe-app-web.svg?branch=master)](https://travis-ci.org/guilhermedelemos/mpe-app-web)
 
 ## Development
 
@@ -32,3 +31,8 @@ See https://semver.org/
 ## GitFlow
 
 See https://nvie.com/posts/a-successful-git-branching-model/
+
+## Gerenciamento do Projeto
+
+* Epic > Feature > User Story > Task
+* Bug > Task

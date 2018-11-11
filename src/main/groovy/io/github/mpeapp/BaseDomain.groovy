@@ -2,34 +2,34 @@ package io.github.mpeapp
 
 abstract class BaseDomain {
 
-    String situacao // A=Ativo , I=Inativo, E=Excluido
+    public static final String SITUACAO_ATIVO = 'A'
+    public static final String SITUACAO_INATIVO = 'I'
+    public static final String SITUACAO_EXCLUIDO = 'E'
+
+    String situacao
     Date logDataCriacao
     Date logDataAlteracao
-    //Usuario logUsuarioCriacao
-    //Usuario logUsuarioAlteracao
 
     static constraints = {
-        situacao nullable:false, blank: false, maxSize: 1, defaultValue: "'A'"
+        situacao nullable:false, blank: false, maxSize: 1, defaultValue: "A"
         logDataCriacao nullable:false
         logDataAlteracao nullable:false
-        //logUsuarioCriacao nullable:false
-        //logUsuarioAlteracao
     }
 
-    void ativar() {
-        this.situacao = 'A'
+    void setAtivo() {
+        this.situacao = SITUACAO_ATIVO
     }
 
-    void desativar() {
-        this.situacao = 'I'
+    void setInativo() {
+        this.situacao = SITUACAO_INATIVO
     }
 
-    void excluir() {
-        this.situacao = 'E'
+    void setExcluido() {
+        this.situacao = SITUACAO_EXCLUIDO
     }
 
-    void setSituacao(String situacao) {
-        if(situacao.equals('A') || situacao.equals('I') || situacao.equals('E')) {
+    protected void setSituacao(String situacao) {
+        if(situacao.equals(SITUACAO_ATIVO) || situacao.equals(SITUACAO_INATIVO) || situacao.equals(SITUACAO_EXCLUIDO)) {
             this.situacao = situacao
         }
     }
